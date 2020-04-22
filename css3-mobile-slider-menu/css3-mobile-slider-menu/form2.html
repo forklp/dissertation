@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="form2.css">
+</head>
+
+<body>
+    <form action="" method="post" class="white-pink">
+        <h1>维修单申诉</h1>
+        <label>
+            <span>原因 :</span><select name="selection">
+                <option value="Job Inquiry">太久没人接单</option>
+                <option value="General Question">对维修结果不满意</option>
+                <option value="General Question">维修单支付存在问题</option>
+            </select>
+        </label>
+
+        <label>
+            <span>详细申诉理由 :</span>
+            <textarea id="message" name="message" placeholder="Detail Reason"></textarea>
+        </label>
+        <label>
+            <span>&nbsp;</span>
+            <input type="button" class="button" value="提交" />
+        </label>
+    </form>
+</body>
+
+</html>
