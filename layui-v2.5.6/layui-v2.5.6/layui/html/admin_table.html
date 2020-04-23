@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>开始使用layui</title>
+    <link rel="stylesheet" href="../css/layui.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.15/css/jquery.dataTables.css">
+</head>
+
+<body>
+    <div class="layui-row">
+        <div class="layui-col-md9">
+                <table id="example" class="display" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th>维修单号</th>
+                                <th>维修员</th>
+                                <th>维修单状态</th>
+                                <th>客户姓名</th>
+                            </tr>
+                        </thead>
+                 
+                      
+                 
+                        <tbody>
+                            <tr>
+                                <td>01</td>
+                                <td>张已</td>
+                                <td>已完善</td>
+                                <td>刘东方</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>02</td>
+                                <td>付佳</td>
+                                <td>已分配</td>
+                                <td>付器</td>
+                               
+                            </tr>
+                            <tr>
+                                <td>03</td>
+                                <td>刘磊</td>
+                                <td>已分配</td>
+                                <td>吴勇</td>
+                              
+                            </tr>
+                            <tr>
+                                <td>04</td>
+                                <td>刘武</td>
+                                <td>已完成</td>
+                                <td>李五</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>05</td>
+                                <td>刘希</td>
+                                <td>已分配</td>
+                                <td>吴昂</td>
+                               
+                            </tr>
+                            <tr>
+                                <td>06</td>
+                                <td>武来</td>
+                                <td>已分配</td>
+                                <td>林峰</td>
+                               
+                            </tr>
+                            <tr>
+                                <td>07</td>
+                                <td>王里</td>
+                                <td>已分配</td>
+                                <td>王静</td>
+                               
+                            </tr>
+                            <tr>
+                                <td>08</td>
+                                <td>王佳妮</td>
+                                <td>已分配</td>
+                                <td>林夏</td>
+                               
+                            </tr>
+                            <tr>
+                                <td>09</td>
+                                <td></td>
+                                <td>未分配</td>
+                                <td>陈器</td>
+                             
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td></td>
+                                <td>未分配</td>
+                                <td>陈林</td>
+                             
+                            </tr>
+                            <tr>
+                                <td>Jena Gaines</td>
+                                <td>Office Manager</td>
+                                <td>London</td>
+                                <td>30</td>
+                              
+                            </tr>
+                            <tr>
+                                <td>Quinn Flynn</td>
+                                <td>Support Lead</td>
+                                <td>Edinburgh</td>
+                                <td>22</td>
+                             
+                            </tr>
+                            <tr>
+                                <td>Charde Marshall</td>
+                                <td>Regional Director</td>
+                                <td>San Francisco</td>
+                                <td>36</td>
+                               
+                            </tr>
+                            <tr>
+                                <td>Haley Kennedy</td>
+                                <td>Senior Marketing Designer</td>
+                                <td>London</td>
+                                <td>43</td>
+                               
+                            </tr>
+                          
+ 
+                        </tbody>
+                    </table>
+                
+        </div>
+        <div class="layui-col-md3">
+
+        </div>
+    </div>
+
+    <!-- 你的HTML代码 -->
+
+    <!-- jQuery -->
+<script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+ 
+<!-- DataTables -->
+<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.js"></script>
+    <script>
+       $(document).ready(function() {
+    $('#example').dataTable();
+} );
+    </script>
+
+</body>
+
+</html>

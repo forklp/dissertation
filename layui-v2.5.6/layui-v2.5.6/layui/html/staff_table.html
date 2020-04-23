@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>开始使用layui</title>
+    <link rel="stylesheet" href="../css/layui.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.15/css/jquery.dataTables.css">
+</head>
+
+<body>
+    <div class="layui-row">
+        <div class="layui-col-md9">
+                <table id="example" class="display" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th>维修单号</th>
+                                <th>客户姓名</th>
+                                <th>维修单状态</th>
+                                <th>电脑问题描述</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                 
+                      
+                 
+                        <tbody>
+                            <tr>
+                                <td>11</td>
+                                <td>张已</td>
+                                <td>已完善</td>
+                                <td>电池损坏，想要更换电池</td>
+                                <td>
+                                    <button type="button" class="layui-btn layui-btn-disabled">完善</button>
+                                    <button type="button" class="layui-btn">重新分单</button>
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>付佳</td>
+                                <td>已完善</td>
+                                <td>电脑开机就蓝屏，不知道原因</td>
+                                <td>
+                                    <button type="button" class="layui-btn layui-btn-disabled">完善</button>
+                                    <button type="button" class="layui-btn">重新分单</button>
+                                </td>
+                               
+                            </tr>
+                            <tr>
+                                <td>25</td>
+                                <td>刘磊</td>
+                                <td>已分配</td>
+                                <td>屏幕损坏，想要更换屏幕</td>
+                                <td>
+                                    <button type="button" class="layui-btn">完善</button>
+                                    <button type="button" class="layui-btn">重新分单</button>
+                                </td>
+                              
+                            </tr>
+  
+                        </tbody>
+                    </table>
+                
+        </div>
+        <div class="layui-col-md3">
+
+        </div>
+    </div>
+
+    <!-- 你的HTML代码 -->
+
+    <!-- jQuery -->
+<script type="text/javascript" charset="utf8" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+ 
+<!-- DataTables -->
+<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.js"></script>
+    <script>
+       $(document).ready(function() {
+    $('#example').dataTable();
+} );
+    </script>
+
+</body>
+
+</html>
